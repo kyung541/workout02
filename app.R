@@ -6,11 +6,9 @@
 #
 #    http://shiny.rstudio.com/
 #
-library(dplyr)
+library(ggplot2)
 library(shiny)
 library(tidyverse)
-#library(rsconnect)
-#rsconnect::deployApp('~/Desktop/UC_Berkeley/Stat133/workout02')
 
 future_value = function(intitamount, returnrate, years){
   for (i in 1:years){
